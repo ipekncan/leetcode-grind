@@ -1,4 +1,4 @@
-// Last updated: 02.07.2026 13:24:28
+// Last updated: 02.07.2026 13:27:34
 1bool isPalindrome(int x) {
 2    
 3    char str[12];
@@ -8,7 +8,7 @@
 7    int len = strlen(str);
 8
 9
-10    if(x<10 && x>=0) return true;
+10    if(strlen(str)==1) return true;
 11    
 12    
 13   
